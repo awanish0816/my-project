@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoPest | Professional Pest Control Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-leaf"></i>
+          Eco<span>Pest</span>
+        </a>
+        
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Safe, Effective & Eco-Friendly Pest Control</h1>
+          <p>Protecting your home and family with sustainable solutions. We eliminate pests effectively while keeping the environment safe.</p>
+          <div class="hero-btns">
+            <a href="services.html" class="btn btn-primary">Our Services</a>
+            <a href="contact.html" class="btn btn-outline bg-white">Get a Free Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="text-primary">Comprehensive Pest Solutions</h2>
+          <p>We handle all types of pests with targeted, eco-friendly treatments.</p>
+        </div>
+        
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-bug"></i>
+            </div>
+            <h3>General Insect Control</h3>
+            <p>Complete protection against ants, roaches, spiders, and other common household insects.</p>
+            <a href="services.html" class="text-primary" style="font-weight: 600; margin-top: 15px; display: inline-block;">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-house-crack"></i>
+            </div>
+            <h3>Termite Treatment</h3>
+            <p>Advanced termite detection and elimination to protect your property's structural integrity.</p>
+            <a href="services.html" class="text-primary" style="font-weight: 600; margin-top: 15px; display: inline-block;">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+            
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-otter"></i>
+            </div>
+            <h3>Rodent Removal</h3>
+            <p>Humane and effective trapping, removal, and exclusion services for mice and rats.</p>
+            <a href="services.html" class="text-primary" style="font-weight: 600; margin-top: 15px; display: inline-block;">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="bg-white">
+      <div class="container flex-split">
+        <div>
+          <!-- Placeholder using a generic house/pest control context image -->
+          <img src="images/about.jpg" alt="Eco-friendly pest control" class="rounded-image">
+        </div>
+        <div>
+          <h2 class="text-primary">Why Choose EcoPest?</h2>
+          <p>With over 10 years of experience, we pride ourselves on delivering top-tier pest control services that prioritize your health and the environment.</p>
+          
+          <ul class="feature-list" style="margin-top: 25px; margin-bottom: 30px;">
+            <li><i class="fa-solid fa-circle-check"></i> Eco-Friendly & Pet Safe Products</li>
+            <li><i class="fa-solid fa-circle-check"></i> Certified & Trained Technicians</li>
+            <li><i class="fa-solid fa-circle-check"></i> 100% Satisfaction Guarantee</li>
+            <li><i class="fa-solid fa-circle-check"></i> Same Day Emergency Service</li>
+          </ul>
+          
+          <a href="about.html" class="btn btn-primary">More About Us</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="bg-primary text-center" style="padding: 60px 0;">
+      <div class="container">
+        <h2 style="color: white;">Ready for a Pest-Free Home?</h2>
+        <p style="color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto 30px;">Contact us today for a free inspection and custom treatment plan.</p>
+        <a href="contact.html" class="btn btn-accent">Request an Inspection</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="color: white; margin-bottom: 20px;">
+            <i class="fa-solid fa-leaf" style="color: var(--primary-color);"></i>
+            Eco<span>Pest</span>
+          </a>
+          <p>Professional, eco-friendly pest control services protecting your home and business.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-links">
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> 123 Green Ave, Eco City</li>
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> (555) 123-4567</li>
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> hello@ecopest.com</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 EcoPest Control. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
