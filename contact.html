@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | EcoPest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-leaf"></i>
+          Eco<span>Pest</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-light" style="padding: 60px 0;">
+      <div class="container text-center">
+        <h1 class="text-primary">Contact Us</h1>
+        <p>Get in touch for a free quote or emergency service.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3 style="font-size: 2rem; margin-bottom: 20px;">Let's Talk</h3>
+            <p style="margin-bottom: 40px;">Whether you have a severe infestation or just want preventative care, our team is ready to help.</p>
+            
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4 style="color: white; margin-bottom: 5px;">Our Office</h4>
+                <p>104, Laksh Paradise,<br> Radha Chowk, Beside Neologic, Baner, Pune, Maharashtra-411044</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h4 style="color: white; margin-bottom: 5px;">Phone</h4>
+                <p>+91 9834081674<br>Emergency: +91 8604672005</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h4 style="color: white; margin-bottom: 5px;">Email</h4>
+                <p>sonugiri1503@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="info-item" style="margin-top: 40px;">
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <h4 style="color: white; margin-bottom: 5px;">Hours</h4>
+                <p>Tue-Sun: 10am - 7pm<br>Mon: Closed</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <h3 style="margin-bottom: 20px;">Send a Message</h3>
+            <form onsubmit="event.preventDefault(); alert('Message sent successfully! We will get back to you soon.');">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" required placeholder="Awanish Giri">
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required placeholder="awanish@giri.com">
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Needed</label>
+                <select id="service" class="form-control" required style="background: white;">
+                  <option value="">Select a service...</option>
+                  <option value="general">General Insect Control</option>
+                  <option value="termite">Termite Treatment</option>
+                  <option value="rodent">Rodent Removal</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" required placeholder="Tell us about your pest problem..."></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="color: white; margin-bottom: 20px;">
+            <i class="fa-solid fa-leaf" style="color: var(--primary-color);"></i>
+            Eco<span>Pest</span>
+          </a>
+          <p>Professional, eco-friendly pest control services protecting your home and business.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-links">
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> 104, Laksh Paradise, Radha Chowk, Beside Neologic, Baner, Pune, Maharashtra-411044</li>
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> +91 9834081674</li>
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> sonugiri1503@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 EcoPest Control. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

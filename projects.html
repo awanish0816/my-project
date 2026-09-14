@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects & Case Studies | EcoPest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      background: var(--bg-white);
+    }
+    .project-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .project-content {
+      padding: 25px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 4px 10px;
+      background: rgba(76, 175, 80, 0.1);
+      color: var(--primary-color);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-leaf"></i>
+          Satendra giri <span>Pest</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-light" style="padding: 60px 0;">
+      <div class="container text-center">
+        <h1 class="text-primary">Our Recent Projects</h1>
+        <p>See how we've helped homeowners and businesses regain control over their properties.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="grid-3">
+          
+          <div class="project-card">
+            <img src="images/project_termite.jpg" alt="Suburban Home">
+            <div class="project-content">
+              <span class="tag">Termite Control</span>
+              <h3>Suburban Home Foundation Recovery</h3>
+              <p>Successfully eradicated a massive subterranean termite colony from a 1950s home without structural damage using our eco-baiting system.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="images/project_commercial.jpg" alt="Restaurant Kitchen">
+            <div class="project-content">
+              <span class="tag">Commercial</span>
+              <h3>Downtown Restaurant Rodent Exclusion</h3>
+              <p>Sealed entry points and implemented an eco-friendly prevention program for a high-volume downtown restaurant, ensuring zero downtime.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="images/project_mosquito.jpg" alt="Backyard">
+            <div class="project-content">
+              <span class="tag">Mosquito Control</span>
+              <h3>Community Park Treatment</h3>
+              <p>Provided seasonal, botanical oil-based mosquito treatments for a local community park, significantly reducing populations safely.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="color: white; margin-bottom: 20px;">
+            <i class="fa-solid fa-leaf" style="color: var(--primary-color);"></i>
+            Eco<span>Pest</span>
+          </a>
+          <p>Professional, eco-friendly pest control services protecting your home and business.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-links">
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> 123 Green Ave, Eco City</li>
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> (555) 123-4567</li>
+            <li style="color: #9ca3af; margin-bottom: 10px;"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> hello@ecopest.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 EcoPest Control. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
